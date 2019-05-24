@@ -23,3 +23,8 @@ use lo8e_sql2;
 update studenten
 set actief = false
 where inschrijvings_datum = 2017-01-01;
+
+use lo8e_sql2;
+update studenten
+set geboortedatum = '08-05-2001 00:00:00'
+where ov_nummer = 90000;
