@@ -17,4 +17,9 @@ insert into klassen_studenten(ov_nummer, klas_code)
 values('90000', 'Lo9e-amo1'),
 ('90001', 'Lo9e-amo2'),
 ('90002', 'Lo9e-amo3'),
-('90003', 'Lo9e-amo1')
+('90003', 'Lo9e-amo1');
+
+use lo8e_sql2;
+update studenten
+set actief = false
+where inschrijvings_datum = 2017-01-01;
